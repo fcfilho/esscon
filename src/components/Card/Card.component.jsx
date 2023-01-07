@@ -73,3 +73,6 @@ export default Card;
 //     <a href={item.href} className='nav__link'>{item.label}</a>
 //   </li>
 //   ))}
+
+
+// https://www.terabox.com/sharing/link?surl=IH3bIeZJTFUT-6RAzhqLEw&path=%2Fess_vds
