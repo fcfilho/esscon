@@ -1,0 +1,65 @@
+import React, { useState, useEffect } from 'react';
+import { getTopNav } from '../Data/MainNav.data';
+import Button from '../Button';
+import * as Styled from './MainNav.styles';
+
+function MainNav() {
+
+  const [navItems, setNavItems] = useState([]);
+  useEffect(() => {
+    setNavItems(getTopNav());
+  }, [])
+
+  const [active, setActive] = useState('nav__active');
+  const [toggleIcon, setToggleIcon] = useState('nav__toggler');
+
+  const navToggle = () => {
+    active === 'nav__active' 
+      ? setActive('nav__menu') 
+      : setActive('nav__active') 
+
+    toggleIcon === 'nav__toggler' 
+      ? setToggleIcon('nav__toggler toggle') 
+      : setToggleIcon('nav__toggler')
+  }
+
+  return (
+    <Styled.MainNav>
+      <div className='inner-wrapper'>
+        <div onClick={navToggle} className={toggleIcon}>
+          <div className='line1'></div>
+          <div className='line2'></div>
+          <div className='line3'></div>
+        </div>
+      
+        <ul className={active}>
+          {navItems.map((item) => (
+            <li key={item.id} className='nav__item'>
+              <a href={item.href} className='nav__link'>{item.label}</a>
+            </li>
+            ))}
+        </ul>
+      </div>
+
+
+      <div className='inner-wrapper'>
+        <Styled.Logo alt="Essencial - Construtora e Incorporadora"/>
+      </div>
+
+      <div className='inner-wrapper'>
+        <div className='nav__contact'>
+          <a 
+            href="https://api.whatsapp.com/send?phone=5535998893840&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20empreendimentos,%20obrigado!" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            (35) 9 9889-3840
+          </a>
+        </div>
+      </div>
+    </Styled.MainNav>
+  );
+}
+
+export default MainNav;
+
