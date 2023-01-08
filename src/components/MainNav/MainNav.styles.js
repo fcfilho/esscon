@@ -48,9 +48,9 @@ export const MainNav = styled.div`
   }
 
   .nav__toggler div {
-    background: rgba(22, 74, 115, 1);
-    height: 0.4rem;
-    margin: 0.4rem;
+    background: rgba(22, 74, 115, .9);
+    height: 0.3rem;
+    margin: 0.3rem;
     transition: 0.21s ease-in;
     width: 3rem;
   }
@@ -137,7 +137,7 @@ export const MainNav = styled.div`
     }
 
     a {
-      color: rgba(22, 74, 115, 1);
+      color: rgba(22, 74, 115, .9);
     }
 
   }

@@ -92,8 +92,13 @@ export const MaisonMariaThereza = styled.div`
   }
 
   .titulo {
-    font-size: 1.5rem;
-    padding: 15px 30px;
+    background: linear-gradient(rgba(22, 74, 115, .6), rgba(22, 74, 115, .9));
+    color: yellow;
+    font-family: 'Dancing Script';
+    font-size: 2.1rem;
+    font-weight: 600;
+    padding: 15px;
+    text-align: center;
 
     @media (max-width: 768px) {
       font-size: 1.2rem;

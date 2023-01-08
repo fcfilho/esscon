@@ -103,7 +103,9 @@ const MaisonMariaThereza = () => {
 
 
       <div className='inner-wrapper'>
-        <div className='titulo'>Planta baixa térreo</div>
+        <div className='text'>
+          <div className='titulo'>Planta baixa térreo</div>
+        </div>
       </div>
 
       <div className='inner-wrapper'>
@@ -182,7 +184,9 @@ const MaisonMariaThereza = () => {
 
 
       <div className='inner-wrapper'>
-        <div className='titulo'>Planta baixa subsolo</div>
+        <div className='text'>
+          <div className='titulo'>Planta baixa subsolo</div>
+        </div>
       </div>
 
       <div className='inner-wrapper'>
@@ -269,7 +273,9 @@ const MaisonMariaThereza = () => {
 
 
       <div className='inner-wrapper'>
-        <div className='titulo'>Área de lazer</div>
+        <div className='text'>
+          <div className='titulo'>Área de lazer</div>
+        </div>
       </div>
 
       <div className='inner-wrapper'>

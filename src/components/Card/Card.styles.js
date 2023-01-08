@@ -15,7 +15,6 @@ export const Card = styled.div` // .container
     flex-direction: column;
   }
 
-
   .card {
     border: 0px solid blue;
     background: linear-gradient(transparent, rgba(22, 74, 115, .9));
