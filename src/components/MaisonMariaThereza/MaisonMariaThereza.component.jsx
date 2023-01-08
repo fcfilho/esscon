@@ -265,7 +265,7 @@ const MaisonMariaThereza = () => {
         </div>
 
         <div className='text'>
-          <div className='subTitulo'>ROOF TOP</div>
+          <div className='subTitulo'>Roof Top</div>
         </div>
         
       </div>

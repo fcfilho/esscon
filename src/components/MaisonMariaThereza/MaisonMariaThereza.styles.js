@@ -5,8 +5,7 @@ export const MaisonMariaThereza = styled.div`
   width: 100vw;
 
   img{
-    /* border: thick double; */
-    border: .18rem solid;
+    border: thick double rgba(22, 74, 115, .9);
     border-radius: 3px;
   }
 
@@ -75,6 +74,8 @@ export const MaisonMariaThereza = styled.div`
   }
 
   .text {
+    background: linear-gradient(rgba(22, 74, 115, .01), rgba(22, 74, 115, .1));
+    border-radius: 6px;
     padding: 0 45px;
     text-align: justify;
     width: 50vw;
@@ -93,6 +94,7 @@ export const MaisonMariaThereza = styled.div`
 
   .titulo {
     background: linear-gradient(rgba(22, 74, 115, .6), rgba(22, 74, 115, .9));
+    border-radius: 1px 100px / 120px;
     color: yellow;
     font-family: 'Dancing Script';
     font-size: 2.1rem;
