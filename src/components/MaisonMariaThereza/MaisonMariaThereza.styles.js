@@ -77,7 +77,6 @@ export const MaisonMariaThereza = styled.div`
     @media (max-width: 768px) {
       padding: 0 10px;
       margin: 45px 5px;
-      text-align: center;
       width: 100%;
     }
   }
