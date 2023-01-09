@@ -87,7 +87,6 @@ export const Footer = styled.div`
           //font-family: 'Caros Soft Bold';
         }
       }
-
   }
 
   .nav-item {
