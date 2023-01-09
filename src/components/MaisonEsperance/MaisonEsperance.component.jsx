@@ -6,23 +6,22 @@ const MaisonEsperance = () => {
   return(
     <Styled.MaisonEsperance>
       <div className='hero'>
-        <div className='text'>
+        <div className='boxText'>
           <div className='titulo'>MAISON ESPERANCE</div>
-          <div className= 'descricao'>Condomínio Fechado em São João da Boa Vista - SP. Fachada Sofisticada com textura, Projeto de interiores, varanda gourmet integrada e paisagismo elaborado.</div>
+          <div className= 'descricao'>Condomínio Fechado em São João da Boa Vista - SP. Fachada Sofisticada com boxTextura, Projeto de interiores, varanda gourmet integrada e paisagismo elaborado.</div>
         </div>
 
-        <div className='pic'>
+        <div className='boxImg'>
           <img src="./images/empreendimentos/me/casa0.png" alt="" width='72%' height='72%' />
         </div>
       </div>
 
-
       <div className='inner-wrapper'>
-        <div className='pic'>
+        <div className='boxImg'>
           <img src="./images/empreendimentos/me/casa1.png" alt="" width='72%' height='72%' />
         </div>
         
-        <div className='text'>
+        <div className='boxText'>
           <div className='titulo'>Seja Bemvindo</div>
           <div className='descricao'>
             <p>Mais um empreendimento Alto Padrão</p>
@@ -31,8 +30,8 @@ const MaisonEsperance = () => {
       </div>
 
       <div className='inner-wrapper'>
-        <div className='text'>
-          <div className='subTitulo'>ARQUITETURA</div>
+        <div className='boxText'>
+          <div className='titulo'>ARQUITETURA</div>
           <div className='descricao'>
             <ul>
               <li>Fachada Sofisticada estilo Contemporâneo e Mediterrâneo, c/tecnologia e beleza.</li>
@@ -51,19 +50,19 @@ const MaisonEsperance = () => {
           </div>
         </div>
         
-        <div className='pic'>
+        <div className='boxImg'>
           <img src="./images/empreendimentos/me/casa2.png" alt="" width='72%' height='72%' />
         </div>
       </div>
 
 
       <div className='inner-wrapper'>
-        <div className='pic'>
+        <div className='boxImg'>
           <img src="./images/empreendimentos/me/casa3.png" alt="" width='72%' height='72%'/>
         </div>
 
-        <div className='text'>
-          <div className='subTitulo'>LOCALIZAÇÃO</div>
+        <div className='boxText'>
+          <div className='titulo'>LOCALIZAÇÃO</div>
           <div className='descricao'>
             <ul>
               <li>Excelente localização com vista para montanhas, boa posição de sol, face norte,
@@ -78,8 +77,8 @@ const MaisonEsperance = () => {
       </div>
 
       <div className='inner-wrapper'>
-        <div className='text'>
-          <div className='subTitulo'>PROJETO INTERIORES</div>
+        <div className='boxText'>
+          <div className='titulo'>PROJETO INTERIORES</div>
           <div className='descricao'>
             <ul>
               <li>Excelente Projeto decorado com detalhes, com assinatura de arquiteta especializada
@@ -92,7 +91,7 @@ const MaisonEsperance = () => {
           </div>
         </div>
         
-        <div className='pic'>
+        <div className='boxImg'>
           <img src="./images/empreendimentos/me/casa2.png" alt="" width='72%' height='72%' />
         </div>
       </div>
@@ -100,12 +99,12 @@ const MaisonEsperance = () => {
 
 
       <div className='inner-wrapper'>
-        <div className='pic'>
+        <div className='boxImg'>
           <img src="./images/empreendimentos/me/casa3.png" alt="" width='72%' height='72%'/>
         </div>
 
-        <div className='text'>
-          <div className='subTitulo'>ACABAMENTOS</div>
+        <div className='boxText'>
+          <div className='titulo'>ACABAMENTOS</div>
           <div className='descricao'>
             <ul>
               <li>Porcelanatos Brancos e marmorizados, Cozinhas e áreas, marcas de qualidade.</li>
@@ -132,8 +131,8 @@ const MaisonEsperance = () => {
 
 
       <div className='inner-wrapper'>
-        <div className='text'>
-          <div className='subTitulo'>DIFERENCIAIS</div>
+        <div className='boxText'>
+          <div className='titulo'>DIFERENCIAIS</div>
           <div className='descricao'>
             <ul>
               <li>Projeto Com Assinatura de interiores, fachadas e paisagismo.</li>
@@ -146,13 +145,12 @@ const MaisonEsperance = () => {
               <li>Balcão Ilha com Pendentes e Banquetas, Adega Decorada.</li>
               <li>Paisagismo Especial na fachada, laterais, fundos, área de lazer e entrada social.</li>
               <li>Memorial Descritivo completo do empreendimento.</li>
-              <li>Vantagens : Qualidade, Fachada bela e sofisticada, excelente custo benefício,
-            extrema valorização nos próximos 18 meses .</li>
+              <li>Vantagens : Qualidade, Fachada bela e sofisticada, excelente custo benefício, extrema valorização nos próximos 18 meses .</li>
             </ul>
           </div>
         </div>
         
-        <div className='pic'>
+        <div className='boxImg'>
           <img src="./images/empreendimentos/me/casa2.png" alt="" width='72%' height='72%' />
         </div>
       </div>

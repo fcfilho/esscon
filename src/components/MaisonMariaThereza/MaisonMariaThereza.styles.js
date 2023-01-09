@@ -14,12 +14,8 @@ export const MaisonMariaThereza = styled.div`
     border-bottom: 1px solid #999;
     display: flex;
     justify-content: space-around;
-    margin: 0 30px;
+    margin: 30px 15px;
     padding: 15px;
-
-    img {
-      border: none;
-    }
 
     @media (max-width: 768px) {
       flex-direction: column ;
@@ -63,7 +59,7 @@ export const MaisonMariaThereza = styled.div`
     padding: 3px 9px;
   }
 
-  .pic {
+  .boxImg {
     text-align: center;
     width: 50vw;
 
@@ -73,16 +69,14 @@ export const MaisonMariaThereza = styled.div`
     }
   }
 
-  .text {
-    background: linear-gradient(rgba(22, 74, 115, .01), rgba(22, 74, 115, .1));
-    border-radius: 6px;
-    padding: 0 45px;
+  .boxText {
+    padding: 30px 5px;
     text-align: justify;
     width: 50vw;
 
     @media (max-width: 768px) {
       padding: 0 10px;
-      margin: 10px 0;
+      margin: 45px 5px;
       text-align: center;
       width: 100%;
     }
@@ -108,6 +102,8 @@ export const MaisonMariaThereza = styled.div`
   }
 
   .subTitulo {
+    background: linear-gradient(transparent, rgba(22, 74, 115, .06));
+    height: 100%;
     font-size: 1.2rem;
     padding: 15px 30px;
     text-align: center;
@@ -119,9 +115,11 @@ export const MaisonMariaThereza = styled.div`
 
   .descricao {
     align-items: center;
+    background: linear-gradient(transparent, rgba(22, 74, 115, .06));
+    border-radius: 6px;
     font-size: 1rem;
-    line-height: 2.1;
-    padding: 15px 30px;
+    line-height: 1.8;
+    padding: 30px;
 
     @media (max-width: 768px) {
       font-size: .8rem;
@@ -129,7 +127,6 @@ export const MaisonMariaThereza = styled.div`
 
     li {
       list-style: square;
-      line-height: 3;
     }
   }
 `;

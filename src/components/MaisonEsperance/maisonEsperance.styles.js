@@ -14,17 +14,13 @@ export const MaisonEsperance = styled.div`
     border-bottom: 1px solid #999;
     display: flex;
     justify-content: space-around;
-    margin: 0 30px;
+    margin: 30px 15px;
     padding: 15px;
-
-    img {
-      border: none;
-    }
 
     @media (max-width: 768px) {
       flex-direction: column ;
     }
-  } 
+  }
   
   .inner-wrapper {
     align-items: center;
@@ -63,7 +59,7 @@ export const MaisonEsperance = styled.div`
     padding: 3px 9px;
   }
 
-  .pic {
+  .boxImg {
     text-align: center;
     width: 50vw;
 
@@ -73,16 +69,14 @@ export const MaisonEsperance = styled.div`
     }
   }
 
-  .text {
-    background: linear-gradient(rgba(132, 69, 41, .9), rgba(230, 169, 5, .9));
-    border-radius: 6px;
-    padding: 0 45px;
+  .boxText {
+    padding: 30px 5px;
     text-align: justify;
     width: 50vw;
 
     @media (max-width: 768px) {
       padding: 0 10px;
-      margin: 10px 0;
+      margin: 45px 5px;
       text-align: center;
       width: 100%;
     }
@@ -93,9 +87,9 @@ export const MaisonEsperance = styled.div`
   }
 
   .titulo {
-    background: linear-gradient(rgba(132, 69, 41, .9), rgba(230, 169, 5, .9));
+    background: linear-gradient(rgba(132, 69, 41, .1), rgba(230, 169, 5, .6));
     border-radius: 1px 100px / 120px;
-    color: yellow;
+    color: black;
     font-family: 'Dancing Script';
     font-size: 2.1rem;
     font-weight: 600;
@@ -108,6 +102,8 @@ export const MaisonEsperance = styled.div`
   }
 
   .subTitulo {
+    background: linear-gradient(transparent, rgba(230, 169, 5, .1));
+    height: 100%;
     font-size: 1.2rem;
     padding: 15px 30px;
     text-align: center;
@@ -119,9 +115,11 @@ export const MaisonEsperance = styled.div`
 
   .descricao {
     align-items: center;
+    background: linear-gradient(transparent, rgba(230, 169, 5, .1));
+    border-radius: 6px;
     font-size: 1rem;
-    line-height: 2.1;
-    padding: 15px 30px;
+    line-height: 1.8;
+    padding: 30px;
 
     @media (max-width: 768px) {
       font-size: .8rem;
@@ -129,7 +127,6 @@ export const MaisonEsperance = styled.div`
 
     li {
       list-style: square;
-      line-height: 3;
     }
   }
 `;
