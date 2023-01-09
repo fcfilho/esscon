@@ -22,13 +22,14 @@ export const MainNav = styled.div`
 
   .inner-wrapper{
     align-items: center;
-    border: 0px solid blue;
     padding: 0px;
     text-align: center;
     width: 100%;
   }
 
   .nav__brand {
+    align-content: center;
+      border: 0px solid red;
     color: #111;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -40,22 +41,19 @@ export const MainNav = styled.div`
     }
   }
 
-  .nav__menu {
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    gap: 3rem;
-  }
+
 
   .nav__toggler div {
+    align-items: center;
     background: rgba(22, 74, 115, .9);
     height: 0.3rem;
     margin: 0.3rem;
-    transition: 0.21s ease-in;
+    transition: 0.21s ease-in-out;
     width: 3rem;
   }
 
   .nav__toggle {
+    align-items: center;
     cursor: pointer;
     display: block;
   }
@@ -63,7 +61,7 @@ export const MainNav = styled.div`
   .nav__active {
     display: none;
     transform: translateX(0%);
-    transition: .3s ease-in;
+    transition: .3s ease-in-out;
   }
 
   /* Toggler Icon Animation */
@@ -77,7 +75,6 @@ export const MainNav = styled.div`
     transform: translate(-5px, -7px) rotate(45deg);
   }
 
-
   .nav__menu {
     align-items: center;
     background: linear-gradient(to right, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9));
@@ -86,11 +83,10 @@ export const MainNav = styled.div`
     flex-direction: column;
     justify-content: space-around;
     height: 45vh;
-    left: 0;
     position: absolute;
-    top: 167px;
+    top: 166px;
     transform: translateX(0%);
-    transition: 0.3s ease-in;
+    transition: 0.3s ease-in-out;
     width: 100%;   
     
     @media(max-width: 768px) {
@@ -139,7 +135,6 @@ export const MainNav = styled.div`
     a {
       color: rgba(22, 74, 115, .9);
     }
-
   }
 
 `;

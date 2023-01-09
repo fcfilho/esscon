@@ -27,7 +27,7 @@ export const Footer = styled.div`
     font-size: 20px;
     font-weight: 400;
     margin: 15px 21px;
-    width: 100vw;
+    width: 90vw;
 
     h4 {
       border-bottom: 1px solid #ccc;
@@ -37,7 +37,6 @@ export const Footer = styled.div`
       margin-bottom: 9px;
       padding: 6px 9px; 
     }
-
   }
 
   .navbar-LinkContainer {
@@ -66,27 +65,28 @@ export const Footer = styled.div`
     padding: 12px 0px 9px 21px;
 
     a {
-        color: #ccc;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        text-decoration: none;
-        line-height: 17px;
-        margin-bottom: 16px;
-        min-width: 170px;
+      color: #ccc;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      text-decoration: none;
+      line-height: 17px;
+      margin-bottom: 0px;
+      min-width: 170px;
 
-        @media(max-width: 768) {
-          margin-bottom: 7px;
-        }
-
-        &:last-child {
-          margin-bottom: 0;
-        }
-        
-        &:hover {
-          //font-family: 'Caros Soft Bold';
-        }
+      @media(max-width: 768) {
+        margin-bottom: 7px;
       }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+      
+      &:hover {
+        //font-family: 'Caros Soft Bold';
+      }
+    }
+    
   }
 
   .nav-item {
@@ -112,7 +112,7 @@ export const Footer = styled.div`
       border-radius: 3%;
       color: #ccc;
       display: inline-flex; 
-      height: 39px;
+      height: 30px;
       margin-left: 0px;
       justify-content: center;
       overflow: hidden;
@@ -122,18 +122,25 @@ export const Footer = styled.div`
 
       @media(min-width: 768) {
         margin-left: initial;
-        // margin-right: 16px;
       }
 
       &:hover {
-        background-color: rgba(255, 2555, 255, 0.3);
+        // background-color: rgba(255, 2555, 255, 0.3);
+        border-bottom: 1px solid #ccc;
       }
 
       &--whatsapp {
         background-image: url(/images/icons/logo-whatsapp.svg);
-        background-position: 4px 4px;
-        background-size: 12%;
+        background-position: 3px 3px;
+        background-size: 9%;
       }
+
+      &--fone {
+        background-image: url(/images/icons/phone.png);
+        background-position: 3px 3px;
+        background-size: 9%;
+      }
+
     }
   }
 

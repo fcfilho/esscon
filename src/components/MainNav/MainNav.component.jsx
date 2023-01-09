@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { getTopNav } from '../Data/MainNav.data';
-import Button from '../Button';
 import * as Styled from './MainNav.styles';
 
 function MainNav() {
@@ -26,10 +25,13 @@ function MainNav() {
   return (
     <Styled.MainNav>
       <div className='inner-wrapper'>
-        <div onClick={navToggle} className={toggleIcon}>
-          <div className='line1'></div>
-          <div className='line2'></div>
-          <div className='line3'></div>
+
+        <div className='nav__brand'>
+          <div onClick={navToggle} className={toggleIcon}>
+            <div className='line1'></div>
+            <div className='line2'></div>
+            <div className='line3'></div>
+          </div>
         </div>
       
         <ul className={active}>
@@ -62,4 +64,3 @@ function MainNav() {
 }
 
 export default MainNav;
-
