@@ -15,10 +15,6 @@ function Footer() {
       <div className='inner-wrapper'>
 
         <div className='content'>
-            <a href="http://construtoraessencial.com.br"><Styled.LogoImg /></a>
-        </div>
-
-        <div className='content'>
           <p className='content__header'>Contato</p>
           <br />
           <h5>Escritório:</h5>
@@ -77,6 +73,10 @@ function Footer() {
               </li>
             ))}
           </ul>
+        </div>
+
+        <div className='content'>
+          <a href="http://construtoraessencial.com.br"><Styled.LogoImg /></a>
         </div>
 
       </div>
