@@ -139,10 +139,7 @@ export const MainNav = styled.div`
 
 `;
 
-
-
 export const Logo = styled((props) => {
-
   const isMobile = useMediaQuery({ maxWidth: 768});
   const logo = !isMobile ? LogoImage : LogoImageShort;
   return <img src={logo} {...props} alt='Essencial - Construtora e Incorporadora' />

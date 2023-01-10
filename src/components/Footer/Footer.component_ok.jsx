@@ -2,12 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { getTopNav } from '../Data/MainNav.data';
 import * as Styled from './Footer.styles'
 
-// import { 
-//   Container,
-//   InnerContainer,
-//   NavbarLinkContainer,
-//   NavbarLink } from './Footer.styles';
-
 function Footer() {
   
   const [navItems, setNavItems] = useState([]);
@@ -22,36 +16,29 @@ function Footer() {
           <div className='navbar-LinkContainer'>
             <p>Escritório:</p>
             <div className='navbar-Link'>
-              <div className='social-media__icon social-media__icon--whatsapp'>
-                <a 
-                  href="https://api.whatsapp.com/send?phone=5535999872627&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20a%20empresa%20Essencial%20Construtora%20&%20Incorporadora,%20obrigado!" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <br/>(35) 9 9987-2627
-                </a>
-              </div>
+              <a 
+                href="https://api.whatsapp.com/send?phone=5535999872627&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20a%20empresa,%20obrigado!" 
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                (35) 9 9987-2627
+              </a>
             </div>
             
             <br/>
             <p>Vendas:</p>
             <div className='navbar-Link'>
-              <div className='social-media__icon social-media__icon--whatsapp'>
-                <a 
+              <a 
                 href="https://api.whatsapp.com/send?phone=5535998893840&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20empreendimentos,%20obrigado!" 
                 target="_blank"
                 rel="noopener noreferrer"
-                >
-                  <br/>(35) 9 9889-3840
-                </a>
-              </div>
-
-              <div className='social-media__icon social-media__icon--fone'>
-                <br/>(35) 3722-3840
-              </div>
+              >
+                <br/>(35) 9 9889-3840
+              </a>
+                <br></br><br/>(35) 3722-3840 <br/>
             </div>
 
-          </div>
+            </div>
         </div>
 
         <div className='inner-wrapper'>
