@@ -7,23 +7,24 @@ export const Footer = styled.div`
   color: #ccc;
 
   .inner-wrapper {
-    display: flex;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    justify-content: space-between;
-    margin: 30px 0px;
-    padding: 30px 60px;
+    display: flex;
+    justify-content: space-around;    
+    width: 100%;
 
-    @media(max-width: 768) {
-      display: flex;
+    @media(max-width: 768px) {
       flex-direction: column;
-      padding: 40px;
+      text-align: center;
+      width: 80%;
     }
 
     .content {
       display: flex;
       flex-direction: column;
+      margin: 30px 5px;
+      min-width: 234px;
 
       &__header {
         border-bottom: 1px solid #eee;
@@ -118,9 +119,7 @@ export const LogoImg = styled((props) => {
 })`
   height: 150px;
   width: 234px;
-  margin-bottom: 40px;
 
   @media(max-width: 768px) {
-    margin-bottom: 3px;
   }
 `;
