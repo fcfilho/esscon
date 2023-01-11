@@ -15,6 +15,19 @@ function Footer() {
       <div className='inner-wrapper'>
 
         <div className='content'>
+          <p className='content__header'>Empreendimentos</p>
+          <nav>
+            <a href='maisonmariathereza' className='content__links'>Maison Maria Tereza</a>
+          </nav>
+          
+          <nav>
+            <a href='/maisonesperance' className='content__links'>Maison Esperance</a>
+          </nav>
+        </div>
+
+
+
+        <div className='content'>
           <p className='content__header'>Contato</p>
           <br />
           <h5>Escritório:</h5>
@@ -45,18 +58,6 @@ function Footer() {
               target="_blank" rel="noopener noreferrer">
                 <p className='content__endereco'>Praça pedro Sanches, 145 - Centro</p>
             </a>
-          </nav>
-        </div>
-
-
-        <div className='content'>
-          <p className='content__header'>Empreendimentos</p>
-          <nav>
-            <a href='maisonmariathereza' className='content__links'>Maison Maria Tereza</a>
-          </nav>
-          
-          <nav>
-            <a href='/maisonesperance' className='content__links'>Maison Esperance</a>
           </nav>
         </div>
 

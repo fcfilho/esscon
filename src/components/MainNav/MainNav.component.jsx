@@ -55,8 +55,10 @@ function MainNav() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            (35) 9 9889-3840
+            <p><u>Vendas:</u></p>
+            <p>(35) 99889-3840</p>
           </a>
+            <p>(35) 3722-3840</p>
         </div>
       </div>
     </Styled.MainNav>

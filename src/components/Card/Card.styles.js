@@ -27,7 +27,7 @@ export const Card = styled.div` // .container
     padding: 15px;
     position: relative;
     transition: 0.3s ease-in-out;
-    transition-delay: 0.1s;
+    transition-delay: 0.3s;
     max-width: 330px;
 
     @media (max-width: 768px) {
@@ -46,25 +46,25 @@ export const Card = styled.div` // .container
         margin-top: -69px;
         opacity: 1;
         transition: 0.3s ease-in-out;
-        transition-delay: 0.1s;
+        transition-delay: 0.3s;
         visibility: visible;
       }
 
       .imgBox {
         transition: 0.3s ease-in-out;
-        transition-delay: 0.1s;
+        transition-delay: 0.3s;
         top: -6px;
       }
 
       .tipo {
         color: rgba(22, 74, 115, .9);
         transition: 0.3s ease-in-out;
-        transition-delay: 0.1s;
+        transition-delay: 0.3s;
         visibility: hidden;
       
         &__comentario {
           transition: 0.3s ease-in-out;
-          transition-delay: 0.1s;
+          transition-delay: 0.3s;
           visibility: hidden;
         }
       }
@@ -78,7 +78,7 @@ export const Card = styled.div` // .container
       position: relative;
       top: -45px;
       transition: 0.3s ease-in-out;
-      transition-delay: 0.1s;
+      transition-delay: 0.3s;
       width: 260px;
       z-index: 1;
       
@@ -98,6 +98,7 @@ export const Card = styled.div` // .container
       position: relative;
       text-align: center;
       transition: 0.3s ease-in-out;
+      transition-delay: 0.3s;
       visibility: hidden;
       width: 100%;
 
@@ -125,7 +126,7 @@ export const Card = styled.div` // .container
       margin-top: 6px;
       text-align: center;
       transition: 0.3s ease-in-out;
-      transition-delay: 0.1s;
+      transition-delay: 0.3s;
     
       &__comentario {
         color: #eee;

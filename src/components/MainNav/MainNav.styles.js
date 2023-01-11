@@ -29,11 +29,11 @@ export const MainNav = styled.div`
 
   .nav__brand {
     align-content: center;
-      border: 0px solid red;
+    border: 0px solid red;
     color: #111;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
 
     h6{
@@ -127,9 +127,9 @@ export const MainNav = styled.div`
       background: transparent;
       border-radius: 9px;
       color: rgba(22, 74, 115, 1);
-      font-size: 12px;
+      font-size: 14px;
       margin: 0;
-      padding: 6px;
+      padding: 3px;
     }
 
     a {
