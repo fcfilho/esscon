@@ -22,6 +22,7 @@ export const MaisonEsperance = styled.div`
     }
   }
   
+  
   .inner-wrapper {
     align-items: center;
     color: #111;

@@ -38,12 +38,20 @@ function Footer() {
             </a>
           </nav>
 
+          <nav>
+            <a href="https://api.whatsapp.com/send?phone=5535999872627&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20a%20empresa%20Essencial%20Construtora%20&%20Incorporadora,%20obrigado!" 
+              target="_blank" rel="noopener noreferrer">
+                <p className='content__whatsapp'>(19) 9 8102-9043</p>
+            </a>
+          </nav>
+
+
           <br />
           <h5>Vendas:</h5>
           <nav>
             <a href="https://api.whatsapp.com/send?phone=5535998893840&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20empreendimentos,%20obrigado!" 
               target="_blank" rel="noopener noreferrer">
-                <p className='content__whatsapp'>(35) 9 9889-3840</p>
+                <p className='content__whatsapp'>(35) 9 8889-3840</p>
               </a>
           </nav>
 

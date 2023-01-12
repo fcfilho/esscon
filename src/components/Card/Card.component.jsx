@@ -3,9 +3,15 @@ import React, { useState, useEffect } from 'react'
 import Button from '../Button';
 import { getEmprNavMmt } from '../Data/EmprNavMmt.data';
 import { getEmprNavMe } from '../Data/EmprNavMe.data';
+import { getEmprNavEc } from '../Data/EmprNavEc.data';
 import * as Styled from './Card.styles';
 
 function Card({ openEmpreendimentos }) {
+
+  const [navItemsEc, setNavItemsEc] = useState([]);
+  useEffect(() => {
+    setNavItemsEc(getEmprNavEc());
+  }, [])
 
   const [navItemsMmt, setNavItemsMmt] = useState([]);
   useEffect(() => {
@@ -19,6 +25,28 @@ function Card({ openEmpreendimentos }) {
 
   return (
     <Styled.Card>
+
+      <div className='card'>
+        <div className='imgBox'>
+          <img className='imgBox__image' src='./images/empreendimentos/empreend_EC.png' alt='' />
+        </div>
+
+        <div className='tipo'>REALIZADO</div>
+        <div className='tipo__comentario'>3 Andares</div>
+
+        <div className='content'>
+          <div className='content__tittle'>EDIFÍCIO</div>
+          <div className='content__description'>...</div>
+          <div className='content__local'>Poços de Caldas - MG</div>
+          {navItemsEc.map((item) => (
+              <Button key={item.id}>
+                <a href={item.href} className='nav__link'>{item.label}</a>
+              </Button>
+            ))
+          }
+        </div>  
+      </div>
+      
       <div className='card'>
         <div className='imgBox'>
           <img className='imgBox__image' src='./images/empreendimentos/empreend_MMT.png' alt='' />

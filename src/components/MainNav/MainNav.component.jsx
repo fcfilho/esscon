@@ -51,12 +51,12 @@ function MainNav() {
       <div className='inner-wrapper'>
         <div className='nav__contact'>
           <a 
-            href="https://api.whatsapp.com/send?phone=5535998893840&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20empreendimentos,%20obrigado!" 
+            href="https://api.whatsapp.com/send?phone=5535998893840&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20empreendimentos,%20da%20Essencial%20Construtora%20,obrigado!" 
             target="_blank"
             rel="noopener noreferrer"
           >
             <p><u>Vendas:</u></p>
-            <p>(35) 99889-3840</p>
+            <p>(35) 98889-3840</p>
           </a>
             <p>(35) 3722-3840</p>
         </div>
