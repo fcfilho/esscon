@@ -123,24 +123,27 @@ export const MainNav = styled.div`
     color: rgba(22, 74, 115, .9);
     display: flex;
     flex-direction: column;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
     width: 100%;
-
-
-    @media(max-width: 768px) {
-      fint-size: 10px;
-    }
-
+      
     &--fone {
       align-items: center;
       font-family: 'Roboto Condensed', sans-serif;
       padding-left: 6px;
+
+      @media(max-width: 768px) {
+        font-size: 10px;
+      }
     }
 
     &--whatsapp {
       align-items: center;
       font-family: 'Roboto Condensed', sans-serif;
       padding-left: 6px;
+
+      @media(max-width: 768px) {
+        font-size: 10px;
+      }
     }
 
     p {
@@ -153,6 +156,7 @@ export const MainNav = styled.div`
         border-radius: 9px;
         color: rgba(255, 255, 255, 1);
       }
+
     }
 
     a {
