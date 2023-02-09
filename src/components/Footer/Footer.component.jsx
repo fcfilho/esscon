@@ -100,7 +100,7 @@ function Footer() {
           <div className='content__inline'>
             <BsWhatsapp />
             <nav>
-              <a href="https://api.whatsapp.com/send?phone=5535981029043&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20a%20empresa%20Essencial%20Construtora%20e%20Incorporadora,%20obrigado!" 
+              <a href="https://api.whatsapp.com/send?phone=5519981029043&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20a%20empresa%20Essencial%20Construtora%20e%20Incorporadora,%20obrigado!" 
                 target="_blank" rel="noopener noreferrer">
                   <p className='content__whatsapp'>(19) 9 8102-9043</p>
               </a>
