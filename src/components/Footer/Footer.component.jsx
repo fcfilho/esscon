@@ -15,12 +15,12 @@ function Footer() {
     setNavItems(getTopNav());
   }, [])
 
-  const [navItemsLancamentos, setNavItemsLancamentos] = useState([]);
+  const [navEmprLancamentos, setNavItemsLancamentos] = useState([]);
   useEffect(() => {
     setNavItemsLancamentos(getNavEmprLancamentos());
   }, [])
 
-  const [navItemsFuturosLancamentos, setNavItemsFuturosLancamentos] = useState([]);
+  const [navEmprFuturosLancamentos, setNavItemsFuturosLancamentos] = useState([]);
   useEffect(() => {
     setNavItemsFuturosLancamentos(getNavEmprFuturos());
   }, [])
@@ -39,7 +39,7 @@ function Footer() {
           <h4>Lançamentos:</h4>
           <br/>
           <ul>
-            {navItemsLancamentos.map((item) => (
+            {navEmprLancamentos.map((item) => (
               <li key={item.id}>
                 <nav>
                   <a href={item.href} className='content__links'>{item.label}</a>
@@ -54,7 +54,7 @@ function Footer() {
           <h4>Lançamentos Futuros:</h4>
           <br/>
           <ul>
-            {navItemsFuturosLancamentos.map((item) => (
+            {navEmprFuturosLancamentos.map((item) => (
               <li key={item.id}>
                 <nav>
                   <a href={item.href} className='content__links'>{item.label}</a>
@@ -139,9 +139,9 @@ function Footer() {
                   <p className='content__endereco'>Praça pedro Sanches, 145 - Centro</p>
               </a>
             </nav>
-          </div>
-          
+          </div>  
         </div>
+
 
 
         <div className='content'>
