@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { getTopNav } from '../Data/MainNav.data';
+import { getNavEmprLancamentos } from '../Data/EmprLancamentos.data';
+import { getNavEmprFuturos } from '../Data/EmprFuturos.data';
+import { getNavEmprRealizados } from '../Data/EmprRealizados.data';
 import * as Styled from './Footer.styles'
 
 import { BsTelephone, BsWhatsapp, BsFillGeoAltFill} from "react-icons/bs";
+
 
 function Footer() {
   
@@ -11,6 +15,20 @@ function Footer() {
     setNavItems(getTopNav());
   }, [])
 
+  const [navItemsLancamentos, setNavItemsLancamentos] = useState([]);
+  useEffect(() => {
+    setNavItemsLancamentos(getNavEmprLancamentos());
+  }, [])
+
+  const [navItemsFuturosLancamentos, setNavItemsFuturosLancamentos] = useState([]);
+  useEffect(() => {
+    setNavItemsFuturosLancamentos(getNavEmprFuturos());
+  }, [])
+
+  const [navEmprRealizados, setNavEmprRealizados] = useState([]);
+  useEffect(() => {
+    setNavEmprRealizados(getNavEmprRealizados());
+  }, [])
 
   return(
     <Styled.Footer>
@@ -18,25 +36,55 @@ function Footer() {
 
         <div className='content'>
           <p className='content__header'>Empreendimentos</p>
-          <nav>
-            <a href='http://www.construtoraessencial.com.br/maisonesperance' className='content__links'>Maison Esperance</a>
-          </nav>
+          <h4>Lançamentos:</h4>
+          <br/>
+          <ul>
+            {navItemsLancamentos.map((item) => (
+              <li key={item.id}>
+                <nav>
+                  <a href={item.href} className='content__links'>{item.label}</a>
+                </nav>
+              </li>
+              ))
+            }
+          </ul>
 
-          <nav>
-            <a href='http://www.construtoraessencial.com.br/maisonmariathereza' className='content__links'>Maison Maria Tereza</a>
-          </nav>
 
-          <nav>
-          <a href='http://www.construtoraessencial.com.br/residencialcarmoribeiro' className='content__links'>Residencial Carmo Ribeiro</a>
-        </nav>
+          <br/><br/>
+          <h4>Lançamentos Futuros:</h4>
+          <br/>
+          <ul>
+            {navItemsFuturosLancamentos.map((item) => (
+              <li key={item.id}>
+                <nav>
+                  <a href={item.href} className='content__links'>{item.label}</a>
+                </nav>
+              </li>
+              ))
+            }
+          </ul>
+
+
+          <br/><br/>
+          <h4>Empreendimentos Realizados:</h4>
+          <br/>
+          <ul>
+            {navEmprRealizados.map((item) => (
+              <li key={item.id}>
+                <nav>
+                  <a href={item.href} className='content__links'>{item.label}</a>
+                </nav>
+              </li>
+              ))
+            }
+          </ul>
         </div>
 
 
 
         <div className='content'>
           <p className='content__header'>Contato</p>
-          <br />
-          <h5>Escritório:</h5>
+          <h4>Escritório:</h4>
           <br />
           <div className='content__inline'>
             <BsWhatsapp />
@@ -60,7 +108,7 @@ function Footer() {
           </div>
 
           <br /><br />
-          <h5>Vendas:</h5>
+          <h4>Vendas:</h4>
           <br />
           <div className='content__inline'>
           <BsWhatsapp />
@@ -81,7 +129,7 @@ function Footer() {
           </div>
 
           <br /><br />
-          <h5>Endereço:</h5>
+          <h4>Endereço:</h4>
           <br />
           <div className='content__inline'>
             <BsFillGeoAltFill />

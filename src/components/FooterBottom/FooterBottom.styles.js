@@ -43,4 +43,11 @@ export const FooterBottom = styled.div`
     padding: 3px;
   }
 
+  .nav__link {
+    color: #164A73;
+
+    &:hover {
+      border-bottom: 3px solid #164A73;
+    }
+  }
 `;

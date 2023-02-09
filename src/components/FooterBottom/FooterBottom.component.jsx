@@ -16,7 +16,13 @@ const FooterBottom = () => {
       </div>
 
       <div className='inner-wrapper'>
-        <div className='navbarLink'>cresci: 41395</div>
+        <div className='navbarLink'>creci: 41395</div>
+      </div>
+
+      <div className='inner-wrapper'>
+        <div className='navbarLink'>
+          <a href='www.2fc.dev.br' target='_new' className='nav__link'>by: 2fc</a>
+        </div>
       </div>
 
     </Styled.FooterBottom>
