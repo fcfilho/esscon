@@ -126,6 +126,10 @@ export const MainNav = styled.div`
     line-height: 1.5rem;
     width: 100%;
       
+    @media(max-width: 768px) {
+      font-size: 12px;
+    }
+
     &--fone {
       align-items: center;
       font-family: 'Roboto Condensed', sans-serif;
