@@ -132,7 +132,7 @@ export const MainNav = styled.div`
       padding-left: 6px;
 
       @media(max-width: 768px) {
-        font-size: 10px;
+        font-size: 11px;
       }
     }
 
@@ -142,7 +142,7 @@ export const MainNav = styled.div`
       padding-left: 6px;
 
       @media(max-width: 768px) {
-        font-size: 10px;
+        font-size: 11px;
       }
     }
 
