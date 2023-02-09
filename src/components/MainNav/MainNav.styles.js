@@ -132,7 +132,7 @@ export const MainNav = styled.div`
       padding-left: 6px;
 
       @media(max-width: 768px) {
-        font-size: 11px;
+        font-size: 12px;
       }
     }
 
@@ -142,7 +142,7 @@ export const MainNav = styled.div`
       padding-left: 6px;
 
       @media(max-width: 768px) {
-        font-size: 11px;
+        font-size: 12px;
       }
     }
 
@@ -175,7 +175,7 @@ export const Logo = styled((props) => {
   width: 234px;
 
   @media(max-width: 768px) {
-    height: 130px;
-    width: 144px;
+    height: 120px;
+    width: 133px;
   }
 `;

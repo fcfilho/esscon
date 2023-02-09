@@ -57,7 +57,7 @@ function MainNav() {
           <p>
             <BsWhatsapp />
             <a 
-              href="https://api.whatsapp.com/send?phone=5535988893840&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20empreendimentos,%20da%20Essencial%20Construtora%20,obrigado!" 
+              href="https://api.whatsapp.com/send?phone=5535988893840&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20empreendimentos,%20da%20Essencial%20Construtora,%20obrigado!" 
               target="_blank"
               rel="noopener noreferrer"
             >
