@@ -21,7 +21,7 @@ const FooterBottom = () => {
 
       <div className='inner-wrapper'>
         <div className='navbarLink'>
-          <a href='www.2fc.dev.br' target='_new' className='nav__link'>by: 2fc.data</a>
+          <a href='https://www.2fc.dev.br' target='_new' className='nav__link'>by: 2fc.data</a>
         </div>
       </div>
 
