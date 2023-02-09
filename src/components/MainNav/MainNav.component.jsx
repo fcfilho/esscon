@@ -46,7 +46,9 @@ function MainNav() {
 
 
       <div className='inner-wrapper'>
-        <Styled.Logo alt="Essencial - Construtora e Incorporadora"/>
+        <a href="http://www.construtoraessencial.com.br"> 
+          <Styled.Logo alt="Essencial - Construtora e Incorporadora"/>
+        </a>
       </div>
 
       <div className='inner-wrapper'>

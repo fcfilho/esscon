@@ -72,7 +72,12 @@ export const Footer = styled.div`
         display: flex;
         flex-direction: row;
         padding: 3px;
+
+        @media(max-width: 768px) {
+          justify-content: center;
+        }
       }
+      
 
 
       @media(max-width: 768) {
@@ -99,7 +104,7 @@ export const Footer = styled.div`
         font-size: 14px;
         line-height: 9px;
         margin: 6px 0px;
-        min-width: 170px;
+        /* min-width: 170px; */
         padding: 3px 0;
         
 

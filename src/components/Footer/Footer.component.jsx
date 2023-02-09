@@ -144,7 +144,6 @@ function Footer() {
         </div>
 
 
-
         <div className='content'>
           <p className='content__header'>Menu</p>
           <ul>
@@ -160,7 +159,9 @@ function Footer() {
 
         <div className='content'>
           <nav>
-            <a href="http://www.construtoraessencial.com.br"><Styled.LogoImg /></a>
+            <a href="http://www.construtoraessencial.com.br">
+              <Styled.LogoImg  alt="Essencial - Construtora e Incorporadora"/>
+            </a>
           </nav>
         </div>
 
