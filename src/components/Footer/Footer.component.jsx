@@ -30,6 +30,7 @@ function Footer() {
     setNavEmprRealizados(getNavEmprRealizados());
   }, [])
 
+
   return(
     <Styled.Footer>
       <div className='inner-wrapper'>

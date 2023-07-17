@@ -4,6 +4,7 @@ import Button from '../Button';
 import { getEmprNavMmt } from '../Data/EmprNavMmt.data';
 import { getEmprNavMe } from '../Data/EmprNavMe.data';
 import { getEmprNavRcr } from '../Data/EmprNavRcr.data';
+import { getEmprNavRv } from '../Data/EmprNavRv.data';
 import { getEmprNavMD } from '../Data/EmprNavMD.data';
 import * as Styled from './Card.styles';
 
@@ -27,6 +28,11 @@ function Card({ openEmpreendimentos }) {
   const [navItemsMD, setNavItemsMD] = useState([]);
   useEffect(() => {
     setNavItemsMD(getEmprNavMD());
+  }, [])
+
+  const [navItemsRv, setNavItemsRv] = useState([]);
+  useEffect(() => {
+    setNavItemsRv(getEmprNavRv());
   }, [])
 
   return (
@@ -89,6 +95,27 @@ function Card({ openEmpreendimentos }) {
           <div className='content__description'>3 Andares</div>
           <div className='content__local'>Poços de Caldas - MG</div>
           {navItemsRcr.map((item) => (
+              <Button key={item.id}>
+                <a href={item.href} className='nav__link'>{item.label}</a>
+              </Button>
+            ))
+          }
+        </div>  
+      </div>
+
+      <div className='card'>
+        <div className='imgBox'>
+          <img className='imgBox__image' src='./images/empreendimentos/empreend_RV.jpg' alt='' />
+        </div>
+
+        <div className='tipo'>REALIZADO</div>
+        <div className='tipo__comentario'>3 Andares</div>
+
+        <div className='content'>
+          <div className='content__tittle'>Resid. VITORIALLY</div>
+          <div className='content__description'>3 Andares</div>
+          <div className='content__local'>Poços de Caldas - MG</div>
+          {navItemsRv.map((item) => (
               <Button key={item.id}>
                 <a href={item.href} className='nav__link'>{item.label}</a>
               </Button>

@@ -17,11 +17,11 @@ const MaisonMariaThereza = () => {
       </div>
 
 
-      <div className='inner-wrapper'>
+      <div className='inner-wrapper'> 
         <div className='boxImg'>
-          <img src="./images/empreendimentos/mmt/bemvindo.png" alt="" width='72%' height='72%' />
+          <img src="./images/empreendimentos/mmt/bemvindo1.jpg" alt="" width='72%' height='72%' />
         </div>
-        
+
         <div className='boxText'>
           <div className='titulo'>Seja Bemvindo</div>
           <div className='descricao'>
@@ -31,6 +31,15 @@ const MaisonMariaThereza = () => {
         </div>
       </div>
 
+      <div className='inner-wrapper'>
+        <div className='boxImg'>
+          <img src="./images/empreendimentos/mmt/bemvindo3.jpg" alt="" width='72%' height='72%' />
+        </div>
+
+        <div className='boxImg'>
+          <img src="./images/empreendimentos/mmt/bemvindo2.jpg" alt="" width='72%' height='72%' />
+        </div>
+      </div>
 
 
       <div className='inner-wrapper'>
@@ -62,7 +71,7 @@ const MaisonMariaThereza = () => {
         </div>
 
         <div className='boxImg'>
-          <img src="./images/empreendimentos/mmt/bemvindo1.png" alt="" width='72%' height='72%' />
+          <img src="./images/empreendimentos/mmt/bemvindo4.jpg" alt="" width='72%' height='72%' />
         </div>
       </div>
 
@@ -317,7 +326,7 @@ const MaisonMariaThereza = () => {
         </div>
         
         <div className='boxImg'>
-          <img src="./images/empreendimentos/mmt/lazer_vista_sup.png" alt="" width='72%' height='72%' />
+          <img src="./images/empreendimentos/mmt/lazer_vista_sup.jpg" alt="" width='72%' height='72%' />
         </div>
       </div>
 

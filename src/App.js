@@ -8,6 +8,7 @@ import Empreendimentos from './components/Empreendimentos/Empreendimentos.compon
 import MaisonMariaThereza from './components/MaisonMariaThereza/MaisonMariaThereza.component';
 import MaisonEsperance from './components/MaisonEsperance/MaisonEsperance.component';
 import ResidencialCarmoRibeiro from './components/ResidencialCarmoRibeiro/ResidencialCarmoRibeiro.component';
+import ResidencialVitorially from './components/ResidencialVitorially/ResidencialVitorially.component';
 import MansaoDarlington from './components/MansaoDarlington/MansaoDarlington.component';
 import Sobre from './components/Sobre/Sobre.component';
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/maisonmariathereza" element={<MaisonMariaThereza />} />
         <Route path="/maisonesperance" element={<MaisonEsperance />} />
         <Route path="/residencialcarmoribeiro" element={<ResidencialCarmoRibeiro />} />
+        <Route path="/residencialvitorially" element={<ResidencialVitorially />} />
         <Route path="/mansaoDarlington" element={<MansaoDarlington />} />
         <Route path="/sobre" element={<Sobre />} />
       </Routes>
@@ -34,3 +36,4 @@ const App = () => {
 }
 
 export default App;
+

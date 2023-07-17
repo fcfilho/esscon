@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Card = styled.div` // .container
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;

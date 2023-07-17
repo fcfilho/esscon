@@ -9,8 +9,8 @@ const ResidencialCarmoRibeiro = () => {
         <div className='boxText'>
           <div className='titulo'>Residencial Carmo & Ribeiro.</div>
           <div className= 'descricao'>
-            <p>Localizado  bairro Jardim Vitória, Poços de Caldas - MG.</p>
-            <p>Topologia: 8 unidades.</p>
+            <p>Localizado no bairro Jardim Vitória, Poços de Caldas - MG.</p>
+            <p>Tipologia: 8 unidades.</p>
           </div>
         </div>
 
