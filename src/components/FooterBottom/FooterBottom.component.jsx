@@ -30,7 +30,7 @@ export default FooterBottom;
 {/* <div className='inner-wrapper'>
   <div className='navbarLink'>Políticas Privacidade</div>
 </div>
-
+8
 
 <div className='inner-wrapper'>
   <div className='navbarLink'>

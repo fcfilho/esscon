@@ -1,4 +1,5 @@
 import React from 'react'
+import { BsTelephone, BsWhatsapp, BsFillGeoAltFill, BsMailbox } from "react-icons/bs";
 
 import * as Styled from '../Contato/Contato.styles';
 
@@ -15,12 +16,26 @@ const Contato = () => {
 
         <div className='fones'>
           <h3>Nossos Contatos</h3>
+          <a href="mailto:contato@construtoraessencial.com.br?subject=Informações sobre os empreendimentos" 
+            target="_blank" rel="noopener noreferrer">
+              <p className='content__whatsapp'><BsMailbox /> E-mail</p>
+          </a>
+
           <h4>Vendas</h4>          
-          <p>(35) 3722 3840</p>
-          <p>(35) 9 9889 3840</p>
+          <p className='content__whatsapp'><BsWhatsapp /> (35) 3722-3840</p>
+          
+          <a href="https://api.whatsapp.com/send?phone=5535988893840&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20empreendimentos,%20da%20Essencial%20Construtora,%20obrigado!" 
+            target="_blank" rel="noopener noreferrer">
+              <p className='content__whatsapp'><BsWhatsapp /> (35) 9 8889-3840</p>
+          </a>
+
           <h4>Escritório</h4>
-          <p>(35) 9 9987 2627</p>
+          <a href="https://api.whatsapp.com/send?phone=5535999872627&text=Olá,%20Tenho%20interesse%20em%20saber%20mais%20sobre%20a%20empresa%20Essencial%20Construtora%20e%20Incorporadora,%20obrigado!" 
+            target="_blank" rel="noopener noreferrer">
+              <p className='content__whatsapp'><BsWhatsapp /> (35) 9 9987-2627</p>
+          </a>
         </div>
+
       </div>
     </Styled.Contato>
   )

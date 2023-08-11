@@ -89,11 +89,11 @@ export const Contato = styled.div`
     width: 450px;
 
     h4{
-      line-height: 5;
+      line-height: 4;
     }
 
     h3{
-      line-height: 6;
+      line-height: 5;
     }
 
     p{
@@ -104,6 +104,30 @@ export const Contato = styled.div`
     @media (max-width: 768px) {
       height: 500px;
       width: 450px;
+    }
+  }
+
+  p {
+    border-radius: 3px;
+    color: rgba(22, 74, 115, 1);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 6px;
+    margin: 0px;
+    padding: 0 9px;
+    
+
+    @media(max-width: 768) {
+      margin: 0px 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+    &:hover {
+      background: rgba(22, 74, 115, 1);
+      color: #fff;
     }
   }
 

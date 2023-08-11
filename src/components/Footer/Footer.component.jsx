@@ -5,7 +5,7 @@ import { getNavEmprFuturos } from '../Data/EmprFuturos.data';
 import { getNavEmprRealizados } from '../Data/EmprRealizados.data';
 import * as Styled from './Footer.styles'
 
-import { BsTelephone, BsWhatsapp, BsFillGeoAltFill} from "react-icons/bs";
+import { BsTelephone, BsWhatsapp, BsFillGeoAltFill, BsMailbox } from "react-icons/bs";
 
 
 function Footer() {
@@ -86,6 +86,18 @@ function Footer() {
         <div className='content'>
           <p className='content__header'>Contato</p>
           <h4>Escritório:</h4>
+          
+          <br />
+          <div className='content__inline'>
+            <BsMailbox />
+            <nav>
+              <a href="mailto:contato@construtoraessencial.com.br?subject=Informações sobre os empreendimentos" 
+                target="_blank" rel="noopener noreferrer">
+                  <p className='content__whatsapp'>E-mail</p>
+              </a>
+            </nav>
+          </div>
+
           <br />
           <div className='content__inline'>
             <BsWhatsapp />
