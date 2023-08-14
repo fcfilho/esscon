@@ -93,7 +93,7 @@ function Footer() {
             <nav>
               <a href="mailto:contato@construtoraessencial.com.br?subject=Informações sobre os empreendimentos" 
                 target="_blank" rel="noopener noreferrer">
-                  <p className='content__whatsapp'>E-mail</p>
+                  <p className='content__whatsapp'>contato@construtoraessencial.com.br</p>
               </a>
             </nav>
           </div>

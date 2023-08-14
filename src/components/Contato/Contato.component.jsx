@@ -18,7 +18,7 @@ const Contato = () => {
           <h3>Nossos Contatos</h3>
           <a href="mailto:contato@construtoraessencial.com.br?subject=Informações sobre os empreendimentos" 
             target="_blank" rel="noopener noreferrer">
-              <p className='content__whatsapp'><BsMailbox /> E-mail</p>
+              <p className='content__whatsapp'><BsMailbox />contato@construtoraessencial.com.br</p>
           </a>
 
           <h4>Vendas</h4>          
